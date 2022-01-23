@@ -1,0 +1,613 @@
+.wrapper {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.container-education {
+
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+@font-face {
+    
+    font-family: NunitoSans Bold;
+    src: url(../font/NunitoSans-Bold.ttf);
+
+}
+
+@font-face {
+    
+    font-family: Montserrat Light;
+    src: url(../font/Montserrat-Light.ttf);
+
+}
+
+/* Header Section */
+.header {
+    padding: 1% 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+.slider {
+    position: relative;
+}
+
+.slider .carousel-indicators .active{
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #27AD60;
+    outline: 1px solid white;
+}
+.slider .carousel-indicators li {
+    outline:  1px solid white !important;
+}
+
+.header .logo-header span {
+    color: white;
+    padding-left: 1%;
+    font-family: 'NunitoSans Bold';
+}
+
+.header .main-navigation ul {
+    padding-inline-start: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin: 0;
+    line-height: 2 !important;
+}
+
+.header .main-navigation ul li a {
+    color: white;
+    font-family: 'Montserrat Light';
+    font-weight: bold;
+}
+
+.slider .carousel-inner .item img {
+    width: 100%;
+    background-color: black;
+}
+.slider .carousel-inner .item{
+    position: relative;
+}
+.slider .item .slider-content {
+    position: absolute;
+    text-align: center;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.slider .item .slider-content h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 65px;
+}
+
+.slider .item .slider-content p {
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+    min-height: 70px;
+
+}
+
+.slider .item .slider-content .hyperlink-slider a {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 11px 45px;
+    border-radius: 30px;
+    background-color: #27AD60;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+
+.slider .item .slider-content .hyperlink-slider a:hover {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 11px 45px;
+    border-radius: 30px;
+    background-color: transparent;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #27AD60;
+}
+
+
+/* About Us Section */
+.aboutus-section {
+    margin-top: 4%;
+}
+
+.aboutus-section .image-aboutus-section img {
+    max-width: 80%;
+}
+
+.aboutus-section .content-aboutus-section h2{
+    font-family: 'NunitoSans Bold';
+    color: #1A1A1A;
+    margin-bottom: 5%;
+    font-size: 48px;
+}
+.aboutus-section .content-aboutus-section p {
+    font-family: 'Montserrat Light';
+    color: #1A1A1A;
+    margin-bottom: 10%;
+    max-width: 71%;
+    text-align: justify;
+}
+
+.icon1-about-us-section , .icon2-about-us-section , .icon3-about-us-section {
+    font-family: 'NunitoSans Bold';
+    color: #1A1A1A;
+    font-size: 25px;
+    margin-bottom: 7%;
+}
+
+/* Features Section */
+.features-section {
+    background-color: #F1F1F1;
+    padding: 3% 0;
+    margin-top: 4%;
+}
+.title-features-section {
+    text-align: center;
+    font-family: 'NunitoSans Bold';
+    color: #1A1A1A;
+}
+
+.title-features-section h2 {
+    margin: 0;
+    padding-bottom: 3%;
+    font-size: 48px;
+}
+
+.image-features-section {
+    background: white;
+    width: 30%;
+    text-align: center;
+    padding: 15px;
+    border-radius: 68px;
+    margin: 0 auto;
+}
+
+.content-features-section {
+    text-align: center;
+}
+
+.row-two-features-section {
+    margin: 5% 0;
+}
+.content-features-section h3 {
+    color: #111111;
+    font-family: 'NunitoSans Bold';
+
+}
+.content-features-section p {
+    color:#484848;
+    font-family: 'Montserrat Light';
+    
+}
+
+/* Courses Section */
+.courses-section .title-courses-section{
+    text-align: center;
+    font-family: 'NunitoSans Bold';
+    margin-bottom: 5%;
+    color: #1A1A1A;
+}
+.courses-section .title-courses-section h2 {
+    font-size: 48px;
+    margin-top: 4%;
+}
+
+.image-courses-section .content-courses-section h3 {
+    color: #111111;
+    font-family: 'NunitoSans Bold';
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+.image-courses-section .content-courses-section p {
+    color:#484848;
+    font-family: 'Montserrat Light';
+}
+
+.content-courses-section {
+    background: #F1F1F1;
+    max-width: 98%;
+    padding: 12% 30px;
+}
+
+.content-courses-section hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid #CFCFCF;
+}
+
+.content-courses-section strong {
+    display: block;
+    text-align: center;
+    font-size: 21px;
+}
+
+.hyperlink-courses-section {
+    text-align: center;
+}
+.hyperlink-courses-section a {
+    color: white;
+    background-color: #27AE60;
+    padding: 3% 30%;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 10%;
+    border: 1px solid #27AE60;
+}
+.hyperlink-courses-section a:hover {
+    color: #27AE60;
+    background-color: transparent;
+    border: 1px solid #27AE60;
+}
+
+.hyperlink-courses-sec {
+    text-align: center;
+    margin: 5% 0;
+}
+
+.hyperlink-courses-sec a{
+    color: #1A1A1A;
+    text-decoration: none;
+    padding: 1% 2%;
+    border-radius: 30px;
+    font-family: 'NunitoSans Bold';
+    display: inline-block;
+    font-size: 20px;
+}
+
+/* Our Teachers Section */
+.our-teachers-section {
+    background: #F1F1F1;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 3% 0;
+}
+
+.our-teachers-section .title-our-teachers-section {
+    text-align: center;
+    font-family: 'NunitoSans Bold';
+    margin-bottom: 5%;
+    color: #1A1A1A;
+}
+.teacher1-content,.teacher2-content,.teacher3-content {
+    display: flex;
+    padding: 10px 0;
+}
+.content-teacher-section h3 {
+    font-family: 'NunitoSans Bold';
+    color: #1A1A1A;
+}
+
+.content-teacher-section p {
+    color: #27AE60;
+    font-size: 18px;
+    font-weight: bold;
+}
+.content-teacher-section {
+    margin: 0 auto;
+}
+.title-our-teachers-section h2 {
+    font-size: 48px;
+}
+
+
+
+/* Programs Section */
+.image-programs-section img{
+    max-width: 100%;
+    background-color: #27AE60;
+}
+
+.image-programs-section img:hover {
+    background: black;
+}
+.programs-section .title-programs-section {
+    text-align: center;
+    font-family: 'NunitoSans Bold';
+    margin: 5% 0;
+    color: #1A1A1A;
+}
+
+.programs-section .title-programs-section h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.image-programs-section {
+    position: relative;
+}
+
+.image-programs-section .content-programs-section{
+    position:absolute;
+    top: 35%;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.image-programs-section .content-programs-section h3{
+    font-family: 'NunitoSans Bold';
+    font-size: 30px;
+
+}
+.content-programs-section p {
+    padding: 0 24%;
+}
+.programs-two-section {
+    margin: 3% 0 5%;
+}
+
+/* Client Section */
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 60px;
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 10%;
+}
+#quote-carousel .carousel-indicators {
+    position: relative;
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-top: 20px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all .4s ease-in;
+    vertical-align: middle;
+	background: none;
+}
+
+.carousel-indicators li {
+     border: none !important;
+}
+#quote-carousel .carousel-indicators .active {
+    width: 128px;
+    height: 128px;
+    opacity: 1;
+    transition: all .2s;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+
+.content-client-section p {
+	margin: 0 0 9%;
+    font-family: 'Montserrat Light';
+    font-size: 15px;
+}
+  
+.client-section {
+	background-color: #F1F1F1;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding: 1% 0;
+	
+}
+
+.content-client-section strong {
+	display: block;
+}
+
+.title-client-section {
+	text-align: center;
+    font-family: 'NunitoSans Bold';
+}
+
+.title-client-section h2 {
+    color: #111111;
+    font-size: 48px;
+    margin: 5% 0 2%;
+}
+.client-section img.img-responsive {
+    max-width: 76%;
+    margin: 0 auto;
+}
+
+/* Blog Section */
+
+.h3-blog-section {
+    text-align: center;
+    color: #1A1A1A;
+    font-family: 'NunitoSans Bold';
+    min-height: 85px;
+}
+
+.p-blog-section {
+    text-align: center;
+}
+
+.title-blog-section {
+    text-align: center;
+    font-family: 'NunitoSans Bold';
+    margin: 5% 0;
+    color: #1A1A1A;
+}
+
+.title-blog-section h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hyperlink-blog-section { 
+    margin: 5% 0;
+    text-align: center;
+}
+.hyperlink-blog-section a {
+    color: white;
+    text-decoration: none;
+    background: #27AE60;
+    padding: 1% 2%;
+    border-radius:30px;
+    font-family: 'NunitoSans Bold';
+    display: inline-block;
+    border: 1px solid #27AE60;
+}
+.hyperlink-blog-section a:hover {
+    color: #27AE60;
+    background: transparent;
+    border: 1px solid #27AE60;
+}
+
+
+/* Newsletter Section */
+.newsletter-section {
+    background-image: url(../images/newsletter.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 5% 0;
+}
+.newsletter-section .title-newsletter-section h2 {
+    color: white;
+    font-family: 'NunitoSans Bold';
+    margin: 0;
+}
+
+.newsletter-section .signup-newsletter-section {
+    display: flex;
+}
+
+.newsletter-section .signup-newsletter-section input {
+    padding: 2% 40% 2% 19px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+}
+
+.newsletter-section .signup-newsletter-section a {
+    color: white;
+    text-decoration: none;
+    background: #27AE60;
+    padding: 2% 19px;
+    border-radius: 0 8px 8px 0;
+    font-family: 'NunitoSans Bold';
+}
+
+/* Contact US Section */
+.contact-us-section {
+    margin-bottom: 1%;
+}
+.contact-us-section .title-contact-us-section {
+    text-align: center;
+    font-family: 'NunitoSans Bold';
+    margin: 5% 0;
+    color: #1A1A1A;
+    
+}
+.contact-us-section .title-contact-us-section h2 {
+font-size: 48px;
+margin: 0;
+}
+
+.form-contact-us{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-contact-us input {
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #95989A;
+    outline: none;
+    padding: 1.5% 0;
+    color: #95989A;
+}
+
+.form-contact-us textarea {
+    border: 1px solid #95989A;
+    outline: none;
+    margin-top: 2%;
+    padding: 8px 12px;
+    color: #95989A;
+}
+
+.send-contact-us a {
+    display: inline-block;
+    margin: 5% 0;
+    color: white;
+    background-color: #27AE60;
+    padding: 2% 9%;
+    border-radius: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border: 1px solid #27AE60;
+}
+
+.send-contact-us a:hover {
+  
+    color: #27AE60;
+    background-color: transparent;
+    border: 1px solid #27AE60;
+}
+.information-address .icon-content-contact-us{
+    font-family: 'Montserrat Light';
+    padding: 20px 0;
+    text-align: center;
+}
+.information-address .icon-content-contact-us i {
+    color:#27AE60 ;
+    font-size: 25px;
+}
+.information-address .icon-content-contact-us p {   
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+/* Footer Section */
+.footer-section {
+    background-color: #1A1A1A;
+    padding: 1% 0;
+}
+
+.footer-section .logo-footer span {
+    color: white;
+    padding-left: 1%;
+    font-family: 'NunitoSans Bold';
+}
+
+.footer-section .list-footer-section ul {
+    padding-inline-start: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin: 0;
+    line-height: 2 !important;
+}
+
+.footer-section .list-footer-section ul li a {
+    color: white;
+    font-family: 'Montserrat Light';
+    font-weight: bold;
+}
